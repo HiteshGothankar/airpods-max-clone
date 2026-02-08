@@ -85,11 +85,13 @@ const CardCarousel = () => {
                 trigger: carouselRef.current,
                 start: "top 80%",
                 end: "bottom 10%",
+                // once:"true",
             }
         })
 
         tl.from(sliderRef.current, {
-            autoAlpha: 0,
+            // autoAlpha: 0,
+            // opacity:0,
             y: 50,
             duration: 0.6,
             delay: 0.4,
